@@ -6,7 +6,7 @@ Habit Tracker is a simple application built using Python and object-oriented pro
 
 The Habit Tracker application relies on the following dependencies:
 
-- Python 3.8.8 or compatible version
+- Python 3.8.8 or a compatible version
 - sqlite3 module
 - Tkinter (included in Python standard library)
 
@@ -21,11 +21,11 @@ To set up and run the Habit Tracker application, follow these steps:
 ## Running the Program
 
 To run the application, use the following command in your terminal or command prompt:
-'''
+
 
     python main.py
 
-'''
+
 
 The application's GUI window will open, providing options to either view existing habits or create a new habit.
 
@@ -33,33 +33,28 @@ The application's GUI window will open, providing options to either view existin
 
 To run the tests, you would need to have `pytest` installed. If it's not installed, you can install it using the following command:
 
-'''
+
 
     pip install pytest
     
-'''
+
 
 Then, to run the tests, use the following command:
 
-'''
+
 
     pytest
    
-'''
 
-Or use the following command to run each test:
 
-'''
+Or use the following command to run a specific test:
+
+
 
     pytest test_database.py
-    
-'''
-
-'''
-
     pytest test_habit.py
     
-'''
+
 
 ## Creating a New Habit
 
@@ -79,16 +74,16 @@ After returning to the welcome window and selecting the "View Habits" option, yo
 - View habits that need to be completed on the current day (if any).
 - Click on the "Complete" button to complete the habit.
 - Click the "View All Habits" button to see a list of all created habits, including the one you just created.
-- Click the "Filter by Frequency" button to see a list of habits of the choosen frequency.
-- Click the "Analytics" button to see the longest streak, highest completion rate among all habits and comparison graph.
+- Click the "Filter by Frequency" button to see a list of habits of the chosen frequency.
+- Click the "Analytics" button to see the longest streak, highest completion rate among all habits, and comparison graph.
 - For each habit listed, you can delete, update, and view analytics.
-- Click the "Update" button to modify the name of the habit. However, you won't be able to change the frequency of the habit. Once you have made the desired changes to the name, simply click on the "Update" button (close the window and open again to see changes).
+- Click the "Update" button to modify the name of the habit. However, you won't be able to change the frequency of the habit. Once you have made the desired changes to the name, simply click on the "Update" button (close the window and open it again to see the changes).
 - Click the "View Analytics" button to display the habit's longest streak, current streak, and completion rate.
 - Please note that if you view the analytics immediately after creating a habit, the values will be zero since there won't be any recorded data yet.
 
 ## Acknowledgments
 
-The Habit Tracker application was developed as a learning exercise in object-oriented programming and GUI development using Python. It serves as a starting point for building more complex habit tracking and management systems.
+The Habit Tracker application was developed as a learning exercise in object-oriented programming and GUI development using Python. It serves as a starting point for building more complex habit-tracking and management systems.
 
 
-Enjoy using the Habit Tracker application!
+#### Enjoy using the Habit Tracker application!
