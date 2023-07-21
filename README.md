@@ -77,7 +77,7 @@ After returning to the welcome window and selecting the "View Habits" option, yo
 - Click the "Filter by Frequency" button to see a list of habits of the chosen frequency.
 - Click the "Analytics" button to see the longest streak, highest completion rate among all habits, and comparison graph.
 - For each habit listed, you can delete, update, and view analytics.
-- Click the "Update" button to modify the name of the habit. However, you won't be able to change the frequency of the habit. Once you have made the desired changes to the name, simply click on the "Update" button (close the window and open it again to see the changes).
+- Click the "Update" button to modify the name of the habit and frequency, once completed simply click on the "Update" button (close the window and open it again to see the changes). Note: If the frequency is weekly specify the day with the first letter alone uppercase and for monthly enter a number between 1-31.
 - Click the "View Analytics" button to display the habit's longest streak, current streak, and completion rate.
 - Please note that if you view the analytics immediately after creating a habit, the values will be zero since there won't be any recorded data yet.
 
